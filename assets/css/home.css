@@ -1,7 +1,10 @@
-cabecalho{
+
+cabecalho__item{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-cabecalho__item--imagem{
-    background-image: url(img/Casa.svg);
+a{
+    background-color: red;
 }
