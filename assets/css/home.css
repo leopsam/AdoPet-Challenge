@@ -1,0 +1,7 @@
+cabecalho{
+    display: flex;
+}
+
+cabecalho__item--imagem{
+    background-image: url(img/Casa.svg);
+}
