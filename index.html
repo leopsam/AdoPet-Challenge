@@ -5,18 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | AdoPet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/inicial.css">
 </head>
-<header class="cabecalho">
-    <figure class="cabecalho__forma">
-        <img src="assets/img/Forma-1.svg" alt="primeira forma" class="cabecalho__forma--forma"/>
-    </figure>
-    <ul class="cabecalho__lista">
-        <li class="cabecalho__item"><a href="#" class="cabecalho__item--link"><img src="assets/img/Casa.svg" alt="casa"></a></li>
-        <li class="cabecalho__item"><a href="#" class="cabecalho__item--link"><img src="assets/img/Mensagens.svg" alt=""></a></li>
-    </ul>
-</header>
+
 <body>
-    
+    <header class="cabecalho">
+        <figure class="cabecalho__forma">
+            <img src="assets/img/Forma-1.svg" alt="primeira forma" class="cabecalho__forma--forma"/>
+        </figure>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a href="index.html" class="menu__item--link">
+                        <img src="assets/img/Casa.svg" alt="casa">
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item--link">
+                        <img src="assets/img/Mensagens.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="principal">
+        <img class="principal__logo" src="assets/img/Logo.svg"/>
+        <h3 class="principal__titulo">Boas-vindas!</h3>
+        <p class="principal__descricao">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+        <div class="principal__botoes">
+            <a class="botao" href="login.html">Já tenho conta</a>
+            <a class="botao" href="cadastro.html">Quero me cadastrar</a>
+        </div>   
+        <img src="assets/img/Ilustração-1.svg" alt="Ilustração" class="principal__ilustracao"/>
+   </section>
+
+   <figure class="home__forma">
+            <img src="assets/img/Forma-2.svg" alt="segunda forma" class="home__forma--forma"/>
+        </figure>
+<footer class="rodape">
+    <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+</footer>
+
 </body>
 </html>

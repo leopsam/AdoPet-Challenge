@@ -1,0 +1,19 @@
+.menu {
+    position: absolute;
+    display: inline-block;
+	height: 23px;
+	width: 19.200000762939453px;
+	left: 48px;
+	top: 48px;
+	border-radius: 0px;
+}
+
+.menu__lista{
+	display: flex;
+	align-items: center;
+	
+}
+
+.menu__item{
+	padding: 0 3rem 0 0;
+}
