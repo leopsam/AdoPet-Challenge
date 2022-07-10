@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/inicial.css">
+    <link rel="stylesheet" href="assets/css/mensagem.css">
+    
 </head>
 
 <body>
@@ -28,30 +29,51 @@
                     </a>
                 </li>
                 <li class="menu__item">
-                    <a href="mensagem.html" class="menu__item--link">
+                    <a href="#" class="menu__item--link">
                         <img src="assets/img/Mensagens.svg" alt="">
                     </a>
                 </li>
+                <div class="menu__usuario">
+                    <a href="#" class="menu__usuario--link">
+                        <img src="assets/img/Usuário.svg" alt="">
+                    </a>
+                </div>
             </ul>
         </nav>
     </header>
+    
     <section class="principal">
-        <img class="principal__logo" src="assets/img/Logo.svg"/>
-        <h3 class="principal__titulo">Boas-vindas!</h3>
-        <p class="principal__descricao">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-        <div class="principal__botoes">
-            <a class="botao" href="login.html">Já tenho conta</a>
-            <a class="botao" href="cadastro.html">Quero me cadastrar</a>
-        </div>   
-        <img src="assets/img/Ilustração-1.svg" alt="Ilustração" class="principal__ilustracao"/>
+        <p class="principal__descricao">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
    </section>
 
-   <figure class="home__forma">
-            <img src="assets/img/Forma-2.svg" alt="segunda forma" class="home__forma--forma"/>
-        </figure>
+
+    <section class="card">
+        <form class="formulario">
+            <label for="text">Nome</label>
+            <input type="text" id="nome" class="input__padrao" required placeholder="Insira seu nome completo">
+    
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input__padrao" required placeholder="Insira seu telefone e/ou whatsapp">
+
+            <label for="animal">Nome do animal</label>
+            <input type="text" id="animal" class="input__padrao" required placeholder="Por qual animal você se interessou?">
+            
+            <label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input__padrao" required placeholder="Escreva sua mensagem."></textarea>
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+
+    </section>
+   
+
+
+
 <footer class="rodape">
     <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
 </footer>
+
+
 
 </body>
 </html>

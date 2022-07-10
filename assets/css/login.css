@@ -58,6 +58,31 @@ body{
 
 }
 
+.input__padrao::placeholder{
+	color: var(--cinza-input);
+	text-align: center;
+	font-family: var(--fonte-secundaria);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	
+}
+
+#senha::placeholder{
+	background: url(../img/Senha.svg) no-repeat right;
+	
+}
+.esqueci{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--coral);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	text-decoration: underline;
+	margin: 1rem;
+}
 .enviar {
 	background-color: var(--coral);
 	font-family: var(--fonte-secundaria);
@@ -70,6 +95,7 @@ body{
 	margin: 0.51rem 0;
 
 }
+
 .rodape{
 	background-color: var(--verde);
 	text-align: center;

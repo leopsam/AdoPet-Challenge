@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | AdoPet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/perfil.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <figure class="cabecalho__forma">
+            <img src="assets/img/Forma-1.svg" alt="primeira forma" class="cabecalho__forma--forma"/>
+        </figure>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a href="index.html" class="menu__item--link">
+                        <img src="assets/img/Casa.svg" alt="casa">
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__item--link">
+                        <img src="assets/img/Mensagens.svg" alt="">
+                    </a>
+                </li>
+                <div class="menu__usuario">
+                    <a href="#" class="menu__usuario--link">
+                        <img src="assets/img/perfil.svg" alt="">
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="principal">
+        <p class="principal__descricao">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+   </section>
+
+
+    <section class="card">
+        
+        <form class="formulario">
+            <h1 class="formulario__titulo">Perfil</h1>
+            <label for="image">Foto</label>
+            <img class="perfil__foto" src="assets/img/perfil.svg">
+            <a href="#" class="edite__foto">Clique na foto para editar</a>
+            <br/>
+
+            <label for="text">Nome</label>
+            <input type="text" id="nome" class="input__padrao" required placeholder="Joana Magalhães">
+    
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input__padrao" required placeholder="55 11 XXXXXXXXX">
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" class="input__padrao" required placeholder="São Paulo">
+            
+            <label for="mensagem">Sobre</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input__padrao" required placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+
+            <input type="submit" value="Salvar" class="enviar">
+        </form>
+
+    </section>
+   
+
+
+
+<footer class="rodape">
+    <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+</footer>
+
+
+
+</body>
+</html>

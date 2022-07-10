@@ -55,6 +55,19 @@ body{
 
 }
 
+.input__padrao::placeholder{
+	color: var(--cinza-input);
+	text-align: center;
+	font-family: var(--fonte-secundaria);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#senha::placeholder{
+	background: url(../img/Senha.svg) no-repeat right;	
+}
+
 .enviar {
 	background-color: var(--coral);
 	font-family: var(--fonte-secundaria);
