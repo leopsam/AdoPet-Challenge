@@ -77,3 +77,33 @@ body{
 	width: 148px;
 	height: 148px;
 }
+
+@media screen and (min-width: 768px) {
+
+body{
+  	background-image:
+   	url('../img/Forma-tablet-1.svg'), 
+   	url(../img/Forma-tablet-2.svg);
+   	background-position: left top, right center;
+}
+
+.principal__descricao{
+
+	margin: 8rem auto 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	width: 30rem;
+}
+
+.bichos{
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+.card{
+	margin: 0.50rem 0.50rem;
+	width: 22rem;
+
+}
+}

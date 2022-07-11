@@ -82,3 +82,31 @@ label{
 	border: none;
 	margin: 0.51rem 0 20rem;
 }
+
+@media screen and (min-width: 768px) {
+
+body{
+  	background-image:
+   	url(../img/Patas-tablet.svg),
+   	url('../img/Forma-tablet-1.svg'), 
+   	url(../img/Forma-tablet-2.svg);
+   	background-position: right top, left top, right center;
+}
+
+.principal__logo{
+	margin-top: 8rem;
+	height: 62px;
+	width: 252px;
+
+}
+
+.principal__descricao{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.formulario{
+	margin: 0 auto;
+	width: 21.50rem;
+}
+}

@@ -27,5 +27,9 @@
 		display: flex;
 		margin-right: 65px; 
 	}
+
+	.menu__usuario{	
+	left: 85%;	
+}
 	
 }
