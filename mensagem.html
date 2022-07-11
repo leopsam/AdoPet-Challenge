@@ -8,19 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/mensagem.css">
-    
+    <link rel="stylesheet" href="assets/css/rodape.css">    
 </head>
-
 <body>
     <header class="cabecalho">
-        <figure class="cabecalho__forma">
-            <img src="assets/img/Forma-1.svg" alt="primeira forma" class="cabecalho__forma--forma"/>
-        </figure>
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item">
@@ -40,13 +35,10 @@
                 </div>
             </ul>
         </nav>
-    </header>
-    
+    </header>    
     <section class="principal">
         <p class="principal__descricao">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
-   </section>
-
-
+    </section>
     <section class="card">
         <form class="formulario">
             <label for="text">Nome</label>
@@ -61,19 +53,13 @@
             <label for="mensagem">Mensagem</label>
 			<textarea cols="70" rows="10" id="mensagem" class="input__padrao" required placeholder="Escreva sua mensagem."></textarea>
 
-            <input type="submit" value="Enviar" class="enviar">
+            <dir class="center-enviar">
+                <input type="submit" value="Enviar" class="enviar">
+            </dir>
         </form>
-
     </section>
-   
-
-
-
-<footer class="rodape">
-    <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
-</footer>
-
-
-
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
 </body>
 </html>

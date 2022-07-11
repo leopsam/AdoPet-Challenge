@@ -1,37 +1,46 @@
 body{
+    background-image: 
+    url('../img/Forma-1.svg'), 
+    url(../img/Forma-2.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right center;
     background-color: var(--azul);
 }
 
 .principal{
  	text-align: center;
- 	position: absolute;
- 	top: 10rem;
+}
+
+.principal__logo{
+	margin-top: 2.50rem;
 }
 
 .principal__titulo{
 	color: var(--branco);
 	font-family: var(--fonte-primaria);
-	font-size: 27px;
+	font-size: 1.62rem;
 	font-weight: 500;
 	margin: 1rem 0;
-
+	padding: 1rem 0;
 }
 
-.principal__descricao{
+.principal__descricao{	
 	color: var(--branco);
 	font-family: var(--fonte-secundaria);
 	font-size: 1rem;
 	font-weight: 400;
 	margin: 1rem 3rem;
+	line-height: 1.50rem;	
+}
 
+.principal__descricao--tablet{
+	display: none;
 }
 
 .principal__botoes{
-
 	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	align-items: center;	
 }
 
 .botao{
@@ -39,38 +48,58 @@ body{
 	font-family: var(--fonte-secundaria);
 	color: var(--branco);
 	font-weight: 600;
-	font-size: 1rem;
-	padding: 1rem;
+	padding: 1rem 0;
 	border-radius: 6px;
-	width: 12rem;
-	margin: .51rem 0;
+	width: 11rem;
+	margin: .50rem 0;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
-.home__forma{
-	position: absolute;
-	left: 18.08rem;
-	top: 12rem;
-}
-
 .principal__ilustracao{
-	margin: 1rem 0;
+	position: relative;
+	top: 1.50rem;
+	z-index: -1;
 }
 
-.rodape{
-	background-color: var(--verde);
-	text-align: center;
- 	position: absolute;
-	top: 48rem;
-	width: 100%;
+@media screen and (min-width: 768px) {
 
+body{
+  	background-image: 
+  	url('../img/Forma-tablet-1.svg'), 
+   	url(../img/Forma-tablet-2.svg);
+}
+
+.principal__logo{
+	margin-top: 8rem;
+	height: 62px;
+	width: 252px;
 
 }
-.rodape__texto{
-	margin: 2rem 0;
+
+.principal__titulo{
+	margin: 2.50rem 0 2.34rem;
 	font-family: var(--fonte-secundaria);
+	font-size: 28px;
+
+}
+
+.principal__descricao--tablet{
+	display: inline-block;
+	margin: 0 auto;
+	width: 21.50rem;	
 	color: var(--branco);
+	font-family: var(--fonte-secundaria);
+	font-size: 1.12rem;
 	font-weight: 400;
+	margin: 1rem 3rem;
+	line-height: 1.50rem;
+}
 
+.principal__descricao{
+	display: none;
+}
 
+.botao{
+	width: 344px;
+}
 }

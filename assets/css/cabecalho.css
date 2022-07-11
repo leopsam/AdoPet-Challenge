@@ -1,19 +1,31 @@
-.menu {
-    position: absolute;
-    display: inline-block;
-	height: 23px;
-	width: 19.200000762939453px;
-	left: 48px;
-	top: 48px;
-	border-radius: 0px;
+.menu{
+    display: flex;
+	margin: 3rem;
 }
 
 .menu__lista{
 	display: flex;
-	align-items: center;
-	
+	align-items: center;	
 }
 
 .menu__item{
-	padding: 0 3rem 0 0;
+	margin-right: 3.6875rem;‬	
+}
+
+.menu__usuario{
+	position: absolute;
+	left: 78%;	
+}
+
+.logo__tablet{
+		display: none;
+	}
+
+@media screen and (min-width: 768px) {
+
+	.logo__tablet{
+		display: flex;
+		margin-right: 65px; 
+	}
+	
 }
