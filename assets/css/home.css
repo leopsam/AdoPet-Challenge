@@ -82,14 +82,13 @@ body{
 
 body{
   	background-image:
-   	url('../img/Forma-tablet-1.svg'), 
-   	url(../img/Forma-tablet-2.svg);
-   	background-position: left top, right center;
+   	url(../img/Forma-tablet-1.svg);   	
+   	background-position: left top;
 }
 
 .principal__descricao{
 
-	margin: 8rem auto 1rem;
+	margin: 14rem auto 1rem;
 	font-size: 1rem;
 	font-weight: 400;
 	width: 30rem;

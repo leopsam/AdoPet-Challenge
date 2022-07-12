@@ -1,7 +1,7 @@
 body{
     background-image: 
     url(../img/Patas.svg),
-    url('../img/Forma-1.svg'),     
+    url(../img/Forma-1.svg),     
     url(../img/Forma-2-reverse.svg);    
     background-repeat: no-repeat;
     background-position: right top, left top, left center;
@@ -76,28 +76,19 @@ label{
 	padding: 0.51rem 0;
 	border-radius: 6px;
 	width: 9rem;
-	margin: 0.51rem 0;
+	margin: 0.51rem 0 10rem;
+	border: none;
+	
 }
 
-.enviar{
-	background-color: var(--coral);
-	font-family: var(--fonte-secundaria);
-	color: var(--branco);
-	font-weight: 600;
-	font-size: 1rem;
-	border-radius: 6px;
-	width: 9.25rem;
-	height: 2.50rem;
-	border: none;
-	margin: 0.51rem 0 20rem;
-}
+
 
 @media screen and (min-width: 768px) {
 
 body{
   	background-image:
    	url(../img/Patas-tablet.svg),
-   	url('../img/Forma-tablet-1.svg'), 
+   	url(../img/Forma-tablet-1.svg), 
    	url(../img/Forma-tablet-2.svg);
    	background-position: right top, left top, right center;
 }

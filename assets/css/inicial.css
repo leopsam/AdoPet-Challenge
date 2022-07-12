@@ -1,6 +1,6 @@
 body{
     background-image: 
-    url('../img/Forma-1.svg'), 
+    url(../img/Forma-1.svg), 
     url(../img/Forma-2.svg);
     background-repeat: no-repeat;
     background-position: left top, right center;
@@ -85,14 +85,13 @@ body{
 
 .principal__descricao--tablet{
 	display: inline-block;
-	margin: 0 auto;
 	width: 21.50rem;	
 	color: var(--branco);
 	font-family: var(--fonte-secundaria);
 	font-size: 1.12rem;
 	font-weight: 400;
-	margin: 1rem 3rem;
-	line-height: 1.50rem;
+	margin: 2.37rem 3rem;
+	line-height: 26px;
 }
 
 .principal__descricao{
@@ -101,5 +100,6 @@ body{
 
 .botao{
 	width: 344px;
+	font-size: 18px;
 }
 }

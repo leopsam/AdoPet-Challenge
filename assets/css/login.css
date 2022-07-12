@@ -1,7 +1,7 @@
 body{
     background-image: 
     url(../img/Patas.svg),
-    url('../img/Forma-1.svg'),     
+    url(../img/Forma-1.svg),     
     url(../img/Forma-2-reverse.svg);    
     background-repeat: no-repeat;
     background-position: right top, left top, left center;
@@ -88,7 +88,7 @@ label{
 body{
   	background-image:
    	url(../img/Patas-tablet.svg),
-   	url('../img/Forma-tablet-1.svg'), 
+   	url(../img/Forma-tablet-1.svg), 
    	url(../img/Forma-tablet-2.svg);
    	background-position: right top, left top, right center;
 }
@@ -101,6 +101,7 @@ body{
 }
 
 .principal__descricao{
+	margin-top: 2.50rem;
 	font-size: 18px;
 	font-weight: 400;
 }
