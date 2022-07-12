@@ -104,3 +104,24 @@ label{
 	border-radius: 6px;
 	width: 9rem;
 }
+
+@media screen and (min-width: 768px) {
+
+	body{
+		  background-image:
+		   url(../img/Forma-tablet-1.svg), 
+		   url(../img/Forma-tablet-2.svg);
+		   background-position: left top, right center;
+	}
+	
+	.principal__descricao{
+		font-size: 18px;
+		font-weight: 400;
+		margin: 14rem 7.62rem 1.50rem;
+	}
+	
+	.formulario{
+		margin: 0 auto;
+		width: 32.75rem;
+	}
+}
