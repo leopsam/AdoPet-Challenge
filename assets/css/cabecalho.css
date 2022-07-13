@@ -19,17 +19,37 @@
 
 .logo__tablet{
 		display: none;
-	}
+}
+.menu__usuario--imagem{	
+	height: 48px;
+	width: 48px;
+}
 
 @media screen and (min-width: 768px) {
 
-	.logo__tablet{
-		display: flex;
-		margin-right: 65px; 
-	}
+.logo__tablet{
+	display: flex;
+	margin-right: 65px; 
+}
 
-	.menu__usuario{	
+.menu__usuario{	
 	left: 85%;	
+}	
+}
+
+@media screen and (min-width: 1440px) {
+
+.logo__tablet{		
+	margin:0 3.50rem 0 6rem; 
 }
 	
+.menu__item{
+	margin-right: 2rem;	
 }
+
+.menu__usuario--imagem{	
+	height: 64px;
+	width: 64px;
+}
+}
+

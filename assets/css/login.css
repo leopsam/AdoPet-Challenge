@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-position: right top, left top, left center;
     background-color: var(--branco);
+    font-family: var(--fonte-primaria);
 }
 
 .principal{
@@ -18,7 +19,6 @@ body{
 
 .principal__descricao{
 	color: var(--azul);
-	font-family: var(--fonte-secundaria);
 	font-size: 1rem;
 	font-weight: 400;
 	margin: 3.56rem 0 2.62rem 0;
@@ -28,7 +28,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: var(--fonte-secundaria);
 	font-weight: 400;
 	color: var(--cinza);
 }
@@ -49,14 +48,14 @@ label{
 }
 
 .input__padrao::placeholder{
+	font-family: var(--fonte-primaria);
 	color: var(--cinza-input);	
-	font-family: var(--fonte-secundaria);
 	font-weight: 400;
 	font-size: 12px;
-	line-height: 16px;	
+	line-height: 16px;
 }
 
-#senha::placeholder{
+.senha::placeholder{
 	background: url(../img/Senha.svg) no-repeat right;	
 }
 
@@ -72,7 +71,6 @@ label{
 
 .enviar{
 	background-color: var(--coral);
-	font-family: var(--fonte-secundaria);
 	color: var(--branco);
 	font-weight: 600;
 	font-size: 1rem;
@@ -110,4 +108,40 @@ body{
 	margin: 0 auto;
 	width: 21.50rem;
 }
+
+label{
+	font-size: 18px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+.input__padrao{	
+	width: 552px;
+}
+
+.principal__logo{
+	margin-top: 10px;
+	width: 260px;
+	height: 64px;
+}
+
+.principal__descricao{
+	font-size: 18px;	
+	margin: 3rem 0 5rem;	
+}
+
+label{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.input__padrao::placeholder{	
+	font-size: 18px;	
+}
+
+.senha{
+	width: 362px;
+}
+
 }

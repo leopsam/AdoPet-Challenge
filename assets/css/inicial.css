@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: left top, right center;
     background-color: var(--azul);
+    font-family: var(--fonte-primaria);
 }
 
 .principal{
@@ -17,7 +18,7 @@ body{
 
 .principal__titulo{
 	color: var(--branco);
-	font-family: var(--fonte-primaria);
+	font-family: var(--fonte-secundaria);
 	font-size: 1.62rem;
 	font-weight: 500;
 	margin: 1rem 0;
@@ -26,7 +27,6 @@ body{
 
 .principal__descricao{	
 	color: var(--branco);
-	font-family: var(--fonte-secundaria);
 	font-size: 1rem;
 	font-weight: 400;
 	margin: 1rem 3rem;
@@ -45,7 +45,6 @@ body{
 
 .botao{
 	background-color: var(--coral);
-	font-family: var(--fonte-secundaria);
 	color: var(--branco);
 	font-weight: 600;
 	padding: 1rem 0;
@@ -57,7 +56,7 @@ body{
 
 .principal__ilustracao{
 	position: relative;
-	top: 1.50rem;
+	top: 5rem;
 	z-index: -1;
 }
 
@@ -65,7 +64,7 @@ body{
 
 body{
   	background-image: 
-  	url('../img/Forma-tablet-1.svg'), 
+  	url(../img/Forma-tablet-1.svg), 
    	url(../img/Forma-tablet-2.svg);
 }
 
@@ -78,7 +77,6 @@ body{
 
 .principal__titulo{
 	margin: 2.50rem 0 2.34rem;
-	font-family: var(--fonte-secundaria);
 	font-size: 28px;
 
 }
@@ -87,7 +85,6 @@ body{
 	display: inline-block;
 	width: 21.50rem;	
 	color: var(--branco);
-	font-family: var(--fonte-secundaria);
 	font-size: 1.12rem;
 	font-weight: 400;
 	margin: 2.37rem 3rem;
@@ -101,5 +98,58 @@ body{
 .botao{
 	width: 344px;
 	font-size: 18px;
+}
+
+.principal__ilustracao{
+	top: 5rem;
+	width: 520px;
+	height: 520px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+body{
+  	background-image: 
+  	url(../img/Forma-tablet-1.svg), 
+   	url(../img/Forma-tablet-2.svg);
+}
+
+.principal__logo{
+	margin-top: 10px;
+	width: 260px;
+	height: 64px;
+
+}
+
+.principal__titulo{
+	margin: 30px 0 15px;
+	font-size: 28px;
+
+}
+
+.principal__descricao--tablet{
+	display: inline-block;
+	width: 488px;	
+	color: var(--branco);
+	font-size: 18px;
+	font-weight: 400;
+	margin: 24px 3rem;
+	line-height: 26px;
+}
+
+.principal__descricao{
+	display: none;
+}
+
+.botao{
+	width: 344px;
+	font-size: 18px;
+}
+
+.principal__ilustracao{
+	width: 600px;
+	height: 600px;
+	top: 5.30rem;
 }
 }

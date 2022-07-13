@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-position: left top;
     background-color: var(--branco);
+    font-family: var(--fonte-primaria);
 }
 
 .principal{
@@ -12,7 +13,6 @@ body{
 
 .principal__descricao{
 	color: var(--azul);
-	font-family: var(--fonte-secundaria);
 	font-size: 1rem;
 	font-weight: 400;
 	margin: 6rem 3.50rem 1.50rem;
@@ -27,19 +27,16 @@ body{
 .formulario__titulo{
 	text-align: center;
 	color: var(--cinza);
-	font-family: var(--fonte-secundaria);
 	font-size: 21px;
 	font-weight: 600;
 }
 
 .formulario{	
 	background-color: var(--cinza-mais-claro);	
-	font-family: var(--fonte-secundaria);
 	font-weight: 600;
 	color: var(--azul);
 	width: 330px;		
 	padding: 2rem 0;
-	margin-bottom: 1rem;
 	border-radius: 8px;
 }
 
@@ -60,7 +57,6 @@ label{
 }
 
 .edite__foto{
-	font-family: var(--fonte-secundaria);
 	color: var(--coral);
 	font-size: 12px;
 	font-weight: 400;
@@ -82,7 +78,7 @@ label{
 .input__padrao::placeholder{
 	margin: 0 auto;
 	color: var(--cinza);
-	font-family: var(--fonte-secundaria);
+	font-family: var(--fonte-primaria);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;	
@@ -95,7 +91,6 @@ label{
 
 .enviar{
 	background-color: var(--coral);
-	font-family: var(--fonte-secundaria);
 	color: var(--branco);
 	font-weight: 600;
 	font-size: 1rem;
@@ -107,21 +102,35 @@ label{
 
 @media screen and (min-width: 768px) {
 
-	body{
-		  background-image:
-		   url(../img/Forma-tablet-1.svg), 
-		   url(../img/Forma-tablet-2.svg);
-		   background-position: left top, right center;
-	}
+body{
+	background-image:
+	url(../img/Forma-tablet-1.svg), 
+	url(../img/Forma-tablet-2.svg);
+	background-position: left top, right center;
+}
 	
-	.principal__descricao{
-		font-size: 18px;
-		font-weight: 400;
-		margin: 14rem 7.62rem 1.50rem;
-	}
+.principal__descricao{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 14rem 7.62rem 1.50rem;
+}
 	
-	.formulario{
-		margin: 0 auto;
-		width: 32.75rem;
-	}
+.formulario{
+	margin: 0 auto 1rem;
+	width: 32.75rem;
+}
+
+label{
+	font-size: 18px;
+	font-weight: 600;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+.principal__descricao{
+	margin: 7rem auto 2.50rem;
+	font-size: 18px;
+	width: 34rem;	
+}
 }
