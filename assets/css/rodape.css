@@ -1,4 +1,5 @@
 .rodape{
+	font-family: var(--fonte-primaria);
 	background-color: var(--verde);
 	text-align: center;
 	width: 100%;
@@ -9,4 +10,8 @@
 	color: var(--branco);
 	font-weight: 400;
 	padding: 2.50rem;
+}
+
+.rodape__link:hover{
+	color: var(--coral);
 }

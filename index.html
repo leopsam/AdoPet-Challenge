@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdoPet</title>
+    <link class="favicon" rel="icon" type="image/x-icon" href="assets/img/Logo-azul.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
     <link rel="stylesheet" href="assets/css/inicial.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
 </head>
-<body>
-    <header class="cabecalho">
+<body class="saida">
+    <header class="cabecalho saida">
         <nav class="menu">
-            <img src="assets/img/Logo-tablet.svg" alt="Logo" class="logo__tablet"/>
+            <a href="index.html"><img src="assets/img/Logo-tablet.svg" alt="Logo" class="logo__tablet"/></a>
             <ul class="menu__lista"> 
                 <li class="menu__item">
-                    <a href="index.html" class="menu__item--link">
+                    <a href="home.html" class="menu__item--link">
                         <img src="assets/img/Casa.svg" alt="casa"/>
                     </a>
                 </li>
@@ -33,18 +35,20 @@
         </nav>
     </header>
     <section class="principal">
-        <img class="principal__logo" src="assets/img/Logo.svg" alt="Logo da pagina AdoPet"/>
-        <h3 class="principal__titulo">Boas-vindas!</h3>
-        <p class="principal__descricao--tablet">Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!</p>
-        <p class="principal__descricao">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-        <div class="principal__botoes">
+        <div class="entrada">
+            <img class="principal__logo entrada" src="assets/img/Logo.svg" alt="Logo da pagina AdoPet"/>
+        </div>
+        <h3 class="principal__titulo entrada" style="animation-delay: 500ms">Boas-vindas!</h3>
+        <p class="principal__descricao--tablet entrada" style="animation-delay: 1s">Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!</p>
+        <p class="principal__descricao entrada" style="animation-delay: 1s">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+        <div class="principal__botoes entrada" style="animation-delay: 1.5s">
             <a class="botao" href="login.html">Já tenho conta</a>
             <a class="botao" href="cadastro.html">Quero me cadastrar</a>
         </div>   
         <img src="assets/img/Ilustração-1.svg" alt="Ilustração" class="principal__ilustracao"/>
     </section>
     <footer class="rodape">
-        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+      <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/leonardo-pereira-sampaio/" class="rodape__link">Leonardo Sampaio.</a></p>
     </footer>
 </body>
 </html>

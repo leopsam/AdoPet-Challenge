@@ -62,8 +62,14 @@ label{
 	line-height: 16px;
 }
 
-.senha::placeholder{
-	background: url(../img/Senha.svg) no-repeat right;	
+.btn{
+	position: relative;
+	top: 2.50rem;
+	left: 8.50rem;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	opacity: .5;
 }
 
 .enviar{
@@ -76,6 +82,14 @@ label{
 	width: 9rem;
 	margin: 0.51rem 0 10rem;
 	border: none;
+	transition: 1s;
+}
+
+.enviar:hover{
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -106,6 +120,11 @@ body{
 
 label{
 	font-size: 18px;
+}
+
+.btn{
+	top: 2.40rem;
+	left: 8rem;
 }
 }
 
@@ -140,5 +159,10 @@ label{
 
 .senha{
 	width: 362px;
+}
+
+.btn{
+	top: 2.55rem;
+	left: 10rem;
 }
 }

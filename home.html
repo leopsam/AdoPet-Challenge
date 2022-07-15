@@ -11,22 +11,23 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variaveis.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/animacao.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/rodape.css">    
 </head>
 <body>
     <header class="cabecalho">
         <nav class="menu">
-          <img src="assets/img/Logo-tablet.svg" alt="Logo" class="logo__tablet"/>
-            <ul class="menu__lista">
+            <a href="index.html"><img src="assets/img/Logo-tablet.svg" alt="Logo" class="logo__tablet"/></a>
+            <ul class="menu__lista"> 
                 <li class="menu__item">
-                    <a href="index.html" class="menu__item--link">
+                    <a href="home.html" class="menu__item--link">
                         <img src="assets/img/Casa.svg" alt="casa"/>
                     </a>
                 </li>
                 <li class="menu__item">
                     <a href="mensagem.html" class="menu__item--link">
-                        <img src="assets/img/Mensagens.svg" alt="Mensagem"/>
+                        <img src="assets/img/Mensagens.svg" alt="mensagem"/>
                     </a>
                 </li>
                 <div class="menu__usuario">
@@ -38,152 +39,138 @@
         </nav>
     </header>    
     <section class="principal">
-        <p class="principal__descricao">Ola! <br/>Veja os amigos disponíveis para adoção!</p>
+        <p class="principal__descricao saida" >Ola! <br/>Veja os amigos disponíveis para adoção!</p>
    </section>
     <main class="bichos">       
-       <div class="card">
-           <img class="imgem__bicho" src="assets/img/Dunga.svg"/>
+      <div class="card entrada" style="animation-delay: 200ms">
+           <img class="imgem__bicho" src="assets/img/bichinhos/Dunga.svg"/>
            <div class="card__conteudo">
               <h3 class="card__titulo">Dunga</h3>
               <p class="card__descricao">2 anos<br/>Porte pequeno<br/>Calmo e educado</p>
               <p class="card__regiao">Rio de Janeiro (RJ)</p>
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+               <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
            </div>
-       </div>
-        <div class="card">
-           <img class="imgem__bicho" src="assets/img/Felícia.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 400ms">
+           <img class="imgem__bicho" src="assets/img/bichinhos/Felícia.svg"/>
            <div class="card__conteudo">
               <h3 class="card__titulo">Felícia</h3>
-              <p class="card__descricao">3 meses<br/>
-                Porte pequeno<br/>
-                Ativa e carinhosa</p>
+              <p class="card__descricao">3 meses<br/>Porte pequeno<br/>Ativa e carinhosa</p>
               <p class="card__regiao">Nova Iguaçu (RJ)</p>
-              <div class="card__responsavel--container">
-                 <p class="card__responsavel">
-                  <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
-                     Falar com responsável
-                  </p>
-               </div>
+              <p class="card__responsavel">
+                <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
+                Falar com responsável
+              </p>
            </div>
-       </div>
-       <div class="card">
-        <img class="imgem__bicho" src="assets/img/Sirius.svg"/>
-        <div class="card__conteudo">
-           <h3 class="card__titulo">Sirius</h3>
-           <p class="card__descricao">6 meses<br/>
-            Porte grande<br/>
-            Ativo e educado</p>
-           <p class="card__regiao">Duque de Caxias (RJ)</p>
-           <div class="card__responsavel--container">
-              <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
-                  Falar com responsável
-               </p>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Fiona.svg"/>
-        <div class="card__conteudo">
-           <h3 class="card__titulo">Fiona</h3>
-           <p class="card__descricao">3 anos<br/>
-            Porte pequeno<br/>
-            Calma e carinhosa</p>
-           <p class="card__regiao">São Gonçalo (RJ)</p>
-           <div class="card__responsavel--container">
-              <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
-                  Falar com responsável
-               </p>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Sid.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 600ms">
+          <img class="imgem__bicho" src="assets/img/bichinhos/Sirius.svg"/>
+          <div class="card__conteudo">
+             <h3 class="card__titulo">Sirius</h3>
+             <p class="card__descricao">6 meses<br/>Porte grande<br/>Ativo e educado</p>
+             <p class="card__regiao">Duque de Caxias (RJ)</p>
+             <p class="card__responsavel">
+              <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
+                Falar com responsável
+              </p>           
+          </div>
+      </div>
+      <div class="card entrada" style="animation-delay: 800ms">
+          <img class="imgem__bicho" src="assets/img/bichinhos/Fiona.svg"/>
+          <div class="card__conteudo">
+             <h3 class="card__titulo">Fiona</h3>
+             <p class="card__descricao">3 anos<br/>Porte pequeno<br/>Calma e carinhosa</p>
+             <p class="card__regiao">São Gonçalo (RJ)</p>
+             <p class="card__responsavel">
+              <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
+              Falar com responsável
+              </p>
+          </div>
+      </div>
+      <div class="card entrada" style="animation-delay: 1000ms">
+        <img class="imgem__bicho" src="assets/img/bichinhos/Sid.svg"/>
         <div class="card__conteudo">
            <h3 class="card__titulo">Sid</h3>
            <p class="card__descricao">8 meses<br/>
             Porte médio/grande<br/>
             Brincalhão e amável</p>
            <p class="card__regiao">Rio de Janeiro (RJ)</p>
-           <div class="card__responsavel--container">
+           
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+               <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
-            </div>
+            
         </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Yoda.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 1200ms">
+        <img class="imgem__bicho" src="assets/img/bichinhos/Yoda.svg"/>
         <div class="card__conteudo">
            <h3 class="card__titulo">Yoda</h3>
            <p class="card__descricao">1 ano<br/>
             Porte médio<br/>
             Ativo e carinhoso</p>
            <p class="card__regiao">Nova Iguaçu (RJ)</p>
-           <div class="card__responsavel--container">
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+              <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
-            </div>
+          
         </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Lua.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 1400ms">
+        <img class="imgem__bicho" src="assets/img/bichinhos/Lua.svg"/>
         <div class="card__conteudo">
            <h3 class="card__titulo">Lua</h3>
            <p class="card__descricao">6 meses<br/>
             Porte médio<br/>
             Ativa e carinhosa</p>
            <p class="card__regiao">Duque de Caxias (RJ)</p>
-           <div class="card__responsavel--container">
+           
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+               <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
             </div>
-        </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Amora.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 1600ms">
+        <img class="imgem__bicho" src="assets/img/bichinhos/Amora.svg"/>
         <div class="card__conteudo">
            <h3 class="card__titulo">Amora</h3>
            <p class="card__descricao">45 dias<br/>
             Porte grande<br/>
             Calma e carinhosa</p>
            <p class="card__regiao">São Gonçalo (RJ)</p>
-           <div class="card__responsavel--container">
+           
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+              <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
-            </div>
+            
         </div>
-    </div>
-    <div class="card">
-        <img class="imgem__bicho" src="assets/img/Zelda.svg"/>
+      </div>
+      <div class="card entrada" style="animation-delay: 1800ms">
+        <img class="imgem__bicho" src="assets/img/bichinhos/Zelda.svg"/>
         <div class="card__conteudo">
            <h3 class="card__titulo">Zelda</h3>
            <p class="card__descricao">5 meses<br/>
             Porte médio<br/>
             Ativa e amável</p>
            <p class="card__regiao">Rio de Janeiro (RJ)</p>
-           <div class="card__responsavel--container">
+      
               <p class="card__responsavel">
-               <img class="card__img--msg" src="assets/img/icone-mensagem.svg"/>
+              <a href="mensagem.html"><img class="card__img--msg" src="assets/img/icone-mensagem.svg"/></a>
                   Falar com responsável
                </p>
-            </div>
+            
         </div>
-    </div>
-   </main>
-   <footer class="rodape">
-      <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
-   </footer>
+      </div>
+    </main>
+    <footer class="rodape">
+      <p class="rodape__texto">2022 - Desenvolvido por <a href="https://www.linkedin.com/in/leonardo-pereira-sampaio/" class="rodape__link">Leonardo Sampaio.</a></p>
+    </footer>
 </body>
 </html>

@@ -9,20 +9,38 @@
 }
 
 .menu__item{
-	margin-right: 3.6875rem;	
+	margin-right: 3.6875rem;
+	transition: transform 1s;		
 }
 
 .menu__usuario{
 	position: absolute;
-	left: 78%;	
+	left: 78%;
+	transition: transform 1s;
+	
+}
+
+.menu__usuario:hover{
+	transform: scale(1.2);
 }
 
 .logo__tablet{
-		display: none;
+	display: none;
+	transition: transform 1s;
 }
 .menu__usuario--imagem{	
 	height: 48px;
 	width: 48px;
+}
+
+.menu__item:hover{
+	transform: scale(1.5);
+}
+
+.logo__tablet:hover{
+	transform: scale(1.2);
+	
+
 }
 
 @media screen and (min-width: 768px) {
