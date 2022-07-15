@@ -62,12 +62,22 @@ label{
 	line-height: 16px;
 }
 
-.btn{
-	position: relative;
-	top: 2.50rem;
-	left: 8.50rem;
-	width: 30px;
-	height: 30px;
+.btn__senha{
+	position: absolute;
+	top: 15rem;
+	left: 85%;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	opacity: .5;
+}
+
+.btn__confirmar{
+	position: absolute;
+	top: 21.40rem;
+	left: 85%;
+	width: 22px;
+	height: 22px;
 	cursor: pointer;
 	opacity: .5;
 }
@@ -122,9 +132,14 @@ label{
 	font-size: 18px;
 }
 
-.btn{
-	top: 2.40rem;
-	left: 8rem;
+.btn__senha{
+	top: 15.50rem;
+	left: 18rem;
+}
+
+.btn__confirmar{
+	top: 22rem;
+	left: 18rem;
 }
 }
 
@@ -161,8 +176,13 @@ label{
 	width: 362px;
 }
 
-.btn{
-	top: 2.55rem;
-	left: 10rem;
+.btn__senha{
+	top: 15.50rem;
+	left: 20.20rem;
+}
+
+.btn__confirmar{
+	top: 22rem;
+	left: 20.20rem;
 }
 }

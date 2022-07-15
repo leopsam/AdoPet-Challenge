@@ -56,11 +56,11 @@ label{
 }
 
 .btn{
-	position: relative;
-	top: 2.50rem;
-	left: 8.50rem;
-	width: 30px;
-	height: 30px;
+	position: absolute;
+	top: 8.70rem;
+	left: 85%;
+	width: 22px;
+	height: 22px;
 	cursor: pointer;
 	opacity: .5;
 }
@@ -134,8 +134,8 @@ label{
 }
 
 .btn{
-	top: 2.40rem;
-	left: 8rem;
+	top: 8.90rem;
+	left: 18rem;
 }
 }
 
@@ -170,8 +170,7 @@ label{
 }
 
 .btn{
-	top: 2.55rem;
-	left: 10rem;
+	top: 8.90rem;
+	left: 20rem;
 }
-
 }
