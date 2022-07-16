@@ -55,7 +55,7 @@ label{
 	line-height: 16px;
 }
 
-.btn{
+.btn__senha{
 	position: absolute;
 	top: 8.70rem;
 	left: 85%;
@@ -133,7 +133,7 @@ label{
 	font-size: 18px;
 }
 
-.btn{
+.btn__senha{
 	top: 8.90rem;
 	left: 18rem;
 }
@@ -169,7 +169,7 @@ label{
 	width: 362px;
 }
 
-.btn{
+.btn__senha{
 	top: 8.90rem;
 	left: 20rem;
 }

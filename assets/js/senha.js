@@ -1,16 +1,33 @@
-const senha = document.querySelector('.senha');
-	const btn = document.querySelector('.btn');
+	const senha = document.querySelector('.senha');
+	const confirme = document.querySelector('.confirme');
 
-	btn.onclick = () =>
+	const btn__senha = document.querySelector('.btn__senha');
+	const btn__confirmar = document.querySelector('.btn__confirmar');
+
+	btn__senha.onclick = () =>
 	{
 		if (senha.type === 'password') 
 		{
 			senha.type = 'text'
-			btn.src = 'assets/img/olho.png'
+			btn__senha.src = 'assets/img/olho.png'
 		}
 		else
 		{
 			senha.type = 'password'
-			btn.src = 'assets/img/ocultar.png'
+			btn__senha.src = 'assets/img/ocultar.png'
+		}
+	}
+
+	btn__confirmar.onclick = () =>
+	{
+		if (confirme.type === 'password') 
+		{
+			confirme.type = 'text'
+			btn__confirmar.src = 'assets/img/olho.png'
+		}
+		else
+		{
+			confirme.type = 'password'
+			btn__confirmar.src = 'assets/img/ocultar.png'
 		}
 	}
